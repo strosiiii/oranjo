@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black !important;
+    margin-bottom: 200px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 250px;
+    background-color: lightgrey;
+}
+
+header img {
+    width: 150px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+li {
+    border-bottom: 1px solid black;
+    width: 100px;
+    padding: 2px;
+    cursor: pointer;
+    padding: 2px;
+    font-size: 18px;
+}
+
+li:hover {
+    color: #fe9c3c;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fe9c3c;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px black;
+  
+}
+
+header a:hover {
+    color: #4cbd52;
+}
+
+.login-cadastro {
+    margin-left: 1300px;
+}
+
+.cadastro-header {
+    margin-left: 20px;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+main {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.art-main img {
+    width: 500px;
+    height: 700px;
+    border-radius: 15px;
+}
+
+
+p {
+    height: 40px;
+    margin-top: 800px;
+    margin-right: 200px;
+}
+
+
+.card-body{
+    display: none;
+}
+
+.card-card-body{
+    display: flex;
+background-color: black;
+
+}
+
+.collapse{
+   
+    display: flex;
+   gap: 60px;
+margin-right: 545px;
+}
+
+.vinland-saga img{
+    width: 494px;
+    margin-top: 100px;
+    margin-right: 460px;
+    border-radius: 20px;
+}
+
+
+.dungeon-meshi{
+    position: absolute;
+    
+    margin-top: 100px;
+    left: 37%;
+}
+
+
+.hunter-x-hunter{
+    display: flex;
+    margin-top: 100px;
+    position: absolute;
+    left: 67%;
+}
+
+
+img:hover {
+    transform: scale(1.05);
+
+   
+}
+
+img {
+    transition: transform 3.0s ease;
+}
+
+footer{
+    color: white;
+    margin-left: 750px;
+    margin-top: 1700px;
+    }
+    
+    
+
+
+
+.btn-primary{
+    margin-left: 196px;
+    display: none;
+
+}
+
+
+
+.bleach{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -570px;
+    display: flex;
+    
+}
+
+.bocchi-no-rock{
+    border-radius: 15px;
+    margin-left: 70px;
+    display: flex;
+    position: absolute;
+}
+
+.oshi-no-ko{
+    margin-left: 70px;
+    position: absolute;
+}
+
+.anime-under{
+  gap: 49.5px;
+    display: flex;
+   
+}
+
+.black-clover{
+    position: absolute;
+    margin-top: 800px;
+    right: 113%;
+}
+
+.naruto{
+    position: absolute;
+    margin-top: 800px;
+    right: -1%;
+}
+
+
+.evangelion{
+    position: absolute;
+    margin-top: 800px;
+    left: 114%;
+}
+
